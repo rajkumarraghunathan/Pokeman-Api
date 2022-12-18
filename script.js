@@ -69,13 +69,13 @@ main_fn(50,0)
 let div2 = document.createElement("div");
 div2.setAttribute("class","justify-content-center");
 
-//nav
+
 let nav = document.createElement("nav");
 nav.setAttribute("class","nav justify-content-center");
 
 let ul = document.createElement("ul");
 ul.setAttribute("class","pagination pagination-lg");
-// li1
+
 let li1 = document.createElement("li");
 li1.setAttribute("class","page-item active");
 
@@ -83,10 +83,10 @@ let btn1 = document.createElement("button");
 btn1.setAttribute("class","btn btn-primary");
 btn1.textContent="1";
 btn1.addEventListener("click",()=>{
-  main_fn(20,10);
+  main_fn(10,5);
 })
 
-//li2
+
 let li2 = document.createElement("li");
 li2.setAttribute("class","page-item active");
 
@@ -94,10 +94,10 @@ let btn2 = document.createElement("button");
 btn2.setAttribute("class","btn btn-primary");
 btn2.textContent="2";
 btn2.addEventListener("click",()=>{
-  main_fn(30,20);
+  main_fn(20,10);
 })
 
-//li3
+
 let li3 = document.createElement("li");
 li3.setAttribute("class","page-item active");
 
@@ -105,10 +105,10 @@ let btn3 = document.createElement("button");
 btn3.setAttribute("class","btn btn-primary");
 btn3.textContent="3";
 btn3.addEventListener("click",()=>{
-  main_fn(40,30);
+  main_fn(30,20);
 })
 
-//li4
+
 let li4 = document.createElement("li");
 li4.setAttribute("class","page-item active");
 
@@ -116,10 +116,10 @@ let btn4 = document.createElement("button");
 btn4.setAttribute("class","btn btn-primary");
 btn4.textContent="4";
 btn4.addEventListener("click",()=>{
-  main_fn(50,40);
+  main_fn(40,30);
 })
 
-//li5
+
 let li5 = document.createElement("li");
 li5.setAttribute("class","page-item active");
 
@@ -127,7 +127,7 @@ let btn5 = document.createElement("button");
 btn5.setAttribute("class","btn btn-primary");
 btn5.textContent="5";
 btn5.addEventListener("click",()=>{
-  main_fn(60,50);
+  main_fn(50,40);
 })
 
 li1.append(btn1,btn2,btn3,btn4,btn5);
